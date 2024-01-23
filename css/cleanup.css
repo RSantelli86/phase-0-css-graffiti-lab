@@ -1,1 +1,29 @@
-/* write your override styles here */
+/* Higher specificity class selector */
+body .graffiti {
+    /* Override styles */
+  }
+  
+  /* Higher specificity id selector */
+  body #graffiti {
+    /* Override styles */
+  }
+  
+  /* Descendant selector */
+  .container .graffiti {
+    /* Override styles */
+  }
+  
+  /* Child selector */
+  .container > .graffiti {
+    /* Override styles */
+  }
+  
+  /* Attribute selector */
+  div[class="graffiti"] {
+    /* Override styles */
+  }
+  
+  /* Pseudo-class selector */
+  .graffiti:first-of-type {
+    /* Override styles */
+  }
